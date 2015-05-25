@@ -1,4 +1,4 @@
-//Carlos A Cabrera
+//Carlos Alfredo Cabrera
 
 #include <iostream>
 
@@ -6,8 +6,9 @@ using namespace std;
 
 int main()
 {
+  int counter;
      
-  cout << "Author : Carlos A Cabrera "<< endl;
+  cout << "Author : Carlos Alfredo Cabrera "<< endl;
   
   cout << "Hello World!" << endl;
   
