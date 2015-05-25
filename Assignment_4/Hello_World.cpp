@@ -8,7 +8,7 @@ int main()
 {
   int counter;
      
-  cout << "Author : Carlos Alfredo Cabrera "<< endl;
+  cout << "Author : Carlos Alfredo Cabrera"<< endl;
   
   cout << "Hello World!" << endl;
   
