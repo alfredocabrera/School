@@ -1,4 +1,6 @@
-#include<stdio.h>
+//Student : Carlos A Cabrera
+//Class : CS-3060 Fall 2015
+//Assignment 1
 
 /* Promise of Originality
 I promise that this source code file has, in it's entirety, been
@@ -8,6 +10,7 @@ this term, I understand that both myself and the student that submitted
 the copy will receive a zero on this assignment.
 */
 
+#include<stdio.h>
 
 int main(int argc, char *argv[])
 	{
@@ -26,6 +29,7 @@ int main(int argc, char *argv[])
 
 	else if (argc > 1)
 	{
+		printf("Number of arguments printed : %i\n", argc);
 
 		fp = fopen(argv[1], "w");
 		if (fp == NULL)
@@ -36,15 +40,9 @@ int main(int argc, char *argv[])
 
 		int i;
 		for ( i = 0; i < argc; i++)
-			{
-			
-			
+			{						
 			fprintf(fp, "Number of arguments printed : #%i:%s\n", i, argv[i]);
-
-
 			}
-		//printf("this is argv : %s\n", argv[1]);
-		// here goes the loop that will open file and write array to file
 	}
 
 	fclose(fp);
